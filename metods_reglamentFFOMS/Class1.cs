@@ -85,9 +85,7 @@ public class reglamentFFOMS
                 "tf_okato varchar NULL, mcod varchar(6) NULL, nam_mop varchar NULL, nam_mok varchar NULL, inn varchar(100) NULL, ogrn varchar(100) NULL, kpp varchar(100) NULL," +
                 "juraddress xml NULL, okopf int4 NULL, vedpri int4 NULL, org int4 NULL, fam_ruk varchar(100) NULL, im_ruk varchar(100) NULL, ot_ruk varchar(100) NULL, " +
                 "phone varchar(100) NULL, fax varchar(100) NULL, e_mail varchar(100) NULL, docs xml NULL, www varchar NULL, medinclude xml NULL, medadvices xml NULL, d_edit date NULL);");
-
-            List<string[]> list = new List<string[]>();
-            
+            List<string[]> list = new List<string[]>();            
             foreach (Schemes_FFOMS.f003_schema_1_0_1.medCompany medCompany in medCompanys)
             {
                 string[] row = new string[22];
@@ -135,9 +133,7 @@ public class reglamentFFOMS
         catch (Exception e)
         {
             comments += e.Message;
-        }
-
- 
+        } 
         return result;
     }
 
