@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "metods_reglamentFFOMS", "metods_reglamentFFOMS\metods_reglamentFFOMS.csproj", "{346FE962-B9F7-4C81-B69E-B0E55F8BF6A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{346FE962-B9F7-4C81-B69E-B0E55F8BF6A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{346FE962-B9F7-4C81-B69E-B0E55F8BF6A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{346FE962-B9F7-4C81-B69E-B0E55F8BF6A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{346FE962-B9F7-4C81-B69E-B0E55F8BF6A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {001E2E81-CDC6-41B9-947F-93EF1775A37A}
+	EndGlobalSection
+EndGlobal
