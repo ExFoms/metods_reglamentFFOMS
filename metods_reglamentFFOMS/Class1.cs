@@ -6,8 +6,7 @@ using System.IO;
 using System.Xml;
 
 public class reglamentFFOMS
-{
-  
+{ 
     public static bool handling_file(string file, List<clsConnections> link_connections, string[] folders, ReglamentLinker reglamentLinker, out string result_comments)
     {
         result_comments = "";
